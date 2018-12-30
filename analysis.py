@@ -4,8 +4,6 @@ import sys
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-#jjsts a a test
-
 def instantiate_dataframe(file):
     msgs = []
     data = []
