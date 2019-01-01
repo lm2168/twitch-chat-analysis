@@ -1,1 +1,2 @@
 matplotlib==2.2.2
+emoji==0.5.1
