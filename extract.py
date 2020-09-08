@@ -46,7 +46,7 @@ while True:
         rate = 4/(end_time-start_time)
         start_time = end_time
         
-    logging.info(f"Calls = {count}, User Engagement = {rate}")
+    logging.info(f"Calls = {count}, Messages Sent Per Second = {rate}")
     count += 1
 
 sock.close()

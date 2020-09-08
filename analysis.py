@@ -19,9 +19,9 @@ def instantiate_dataframe(file):
                     
                     response = line.split('—')[1:]
                     response = '—'.join(response).strip()
-                    if 'Calls =' in response and 'User Engagement =' in response:
+                    if 'Calls =' in response and 'Messages Sent Per Second =' in response:
                         calls, usr_engmt = re.search(
-                            'Calls = (.*), User Engagement = (.*)', response
+                            'Calls = (.*), Messages Sent Per Second = (.*)', response
                         ).groups()
 
                         d = {
